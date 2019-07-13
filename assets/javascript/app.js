@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    var topics = ['Patrick Mahomes', 'Kansas City Royals', 'Kansas City Chiefs', 'Kansas Jayhawks', 'The Office', 
-    'Stranger Things', 'Tom Brady Upset', 'Oreos', 'The Beatles', 'Kanye West', 'Harry Potter', 'Coding Bootcamp'];
+    var topics = ['My Lady', 'Kansas City Royals', 'Kansas City Chiefs', 'Kansas Jayhawks', 'The Office', 
+    'Stranger Things', 'Tom Brady Upset', 'Oreos', 'The Beatles', 'Kanye West', 'Harry Potter', 'Coding Bootcamp', 'Patrick Mahomes'];
 
     
 
