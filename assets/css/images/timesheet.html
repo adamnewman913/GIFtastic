@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Employee Data Management</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="timesheet.js"></script>
+​
+​
+​
+  <style>
+    #headerDiv {
+      color: white;
+      background-color: black;
+      margin: 20px 20px;
+      padding: 10px 10px;
+    }
+​
+    #cEDiv {
+​
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: lightgray;
+      margin: 0px 0px 10px 0;
+      font-weight: bold;
+    }
+​
+    #currentEmpDiv {
+      border-style: solid;
+      border-width: 2px;
+      border-color: lightgray;
+      border-radius: 5px;
+      margin: 20px 20px;
+      padding: 10px 10px;
+    }
+​
+    #aEDiv {
+​
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: lightgray;
+      margin: 0px 0px 10px 0;
+      font-weight: bold;
+    }
+​
+    #addEmpDiv {
+      border-style: solid;
+      border-width: 2px;
+      border-color: lightgray;
+      border-radius: 5px;
+      margin: 20px 20px;
+      padding: 10px 10px;
+    }
+  </style>
+</head>
+​
+<body>
+​
+  <div class="container">
+    <!--Page Header-->
+    <div class="row" id="headerDiv">
+      <div class="col-md-12">
+        <h2 class="text-center">Employee Data Management</h2>
+        <p class="text-center">A Comprehensive Directory of Employee Billable Hours</p>
+      </div>
+    </div>
+​
+    <!--Current Employees-->
+    <div class="row" id="employee-table">
+      <div class="col-md-12">
+        <div id=cEDiv>Current Employees</div>
+​
+        <table id="employee-table" style="width:100%">
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Start Date</th>
+            <th>Months Worked</th>
+            <th>Monthly Rate</th>
+            <th>Ammount Accrued</th>
+          </tr>
+          <hr />
+​
+          <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+          <!--append <tr>s with <td>s in them here-->
+​
+        </table>
+      </div>
+    </div>
+​
+    <!--Adding Employees Box-->
+    <div class="row" id="employee-table">
+      <div class="col-md-12">
+        <div id=aEDiv>Add Employee</div>
+​
+        <label>Employee Name</label> <br />
+        <input type="text" id="employee-name-input" /> <br />
+        <label>Role</label> <br />
+        <input type="text" id="role-input" /> <br />
+        <label>Start Date (MM/DD/YYYY)</label> <br />
+        <input type="text" id="start-input" /> <br />
+        <label>Monthly Rate</label> <br />
+        <input type="text" id="rate-input" /> <br />
+​
+        <!--Submit button-->
+        <button id="add-employee-btn" class="float-right btn btn-primary">Submit</button>
+      </div>
+​
+​
+​
+    </div>
+​
+​
+  </div>
+​
+​
+​
+​
+​
+​
+​
+​
+​
+</body>
+​
+</html>
